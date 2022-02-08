@@ -3,6 +3,7 @@ export const MenuLink =(props) =>{
     return(
         <li className="nav-item">
             <a className="nav-link" href="#">{name}</a>
+            {/* <Link to="/">Home</Link> */}
         </li>
     )
 }
